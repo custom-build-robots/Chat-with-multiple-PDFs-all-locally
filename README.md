@@ -50,3 +50,8 @@ The first part of the user interface offers the possibility to manage the vector
 - This is a static function that currently defaults to "False" or has not yet been used.
 - The button "Process" triggers the processing, i.e. the creation of the vector database. This process can take some time depending on the number of documents and the performance of the computer.
 ![Chat with your data](images/app_create_a_new_vector_store_04_details-2.png)
+
+
+# Setup
+Please create a .env file with your Hugging Face key.
+hf_auth = 'Here goes hour hf key to download the models...'
