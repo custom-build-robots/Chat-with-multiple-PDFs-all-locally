@@ -10,11 +10,17 @@ In the following picture the application is to be seen once after this was calle
 ![Chat with your data](images/app_work_with_your_data_and_a_LLM_08.jpg)
 
 1 With the dropdown menu "Select a LLM model" the user can choose between different language models. These can be specified centrally via a YAML configuration file.
+
 2 Depending on the available hardware, the drop-down menu "Select a quantization option" allows the language model to be loaded in full or as an integer 4.
+
 3 Depending upon technical requirement over the Dropdown menu "Select a prompt templte" between the classical Chat mode, a programming assistant and/or a text analysis in the sense is the text positive, neutral or negative to be selected.
+
 4 With the help of the dropdown menu "Select a vector store" it is possible for me to load a vector store database that contains, for example, an API description or even a variety of guides.
+
 5 The button "Initialize app" applies the configuration and loads the selected language model into the GPU memory.
+
 6 After the application has been initialized, the text field can be used to ask a question that is to be answered with the help of the vector store database or to insert a text for a sentiment analysis.
+
 7 Below the text field the user can see the chat history.
 
 ![Chat with your data](images/app_work_with_your_data_and_a_LLM_01_details.jpg)
@@ -34,23 +40,37 @@ The first part of the user interface offers the possibility to manage the vector
 
 ## Load an already created vector store
 1 Here the path is specified under which the vector databases are to be stored.
+
 2 This drop-down menu offers the possibility to select from predefined Large Language Models (LLM) for the creation of text embeddings.
+
 3 This drop-down menu shows all databases that have already been created.
+
 4 The button "Load vectorestore DB" loads the selected database.
+
 5 With the button "Delete vectorstore DB" an existing database can be deleted.
+
 6 The length of the loaded vector database is displayed here.
+
 ![Chat with your data](images/app_create_a_new_vector_store_03_details.png)
 
 ## Create a new vector store
 
 1 Here you can add files like PDF files. Once via Drag&Drop or just via the button "Brows files".
+
 2 In this line, a meaningful name for the vector database must be specified.
+
 3 With this drop down menu you can select how the texts should be divided.
+
 4 Here the size of the text chunks is specified. Depending on the technical requirements and the input document, the length will vary in order to achieve the best result.
+
 5 It is also important to find out how large the overlapping of the texts should be. It is best to try out different settings here.
+
 6 This is a more or less static function the "len" function. Eventually this will be removed again.
+
 7 This is a static function that currently defaults to "False" or has not yet been used.
+
 8 The button "Process" triggers the processing, i.e. the creation of the vector database. This process can take some time depending on the number of documents and the performance of the computer.
+
 ![Chat with your data](images/app_create_a_new_vector_store_04_details-2.png)
 
 
