@@ -1,6 +1,8 @@
 # Chat-with-multiple-PDFs-all-locally
 With the here presented conversational application which falls into the category of chatting with e.g. PDF files I pursued my personal goal to work out the topic of large language models (LLM) for myself. My goal was not to simply use a service like OpenAI with the ChatGPT API but to implement everything from the selection of the language model to the startup on my own hardware. This way I had the steepest learning curve and was able to get the best understanding of how everything has to be put together and especially where the difficulties are that have to be solved. The project gave me a lot of pleasure and also showed me how important it is to prepare the texts so that they can be used in e.g. a chat mode or so that the texts can be evaluated in the sense of a mood analysis.
 
+This is my blog: https://ai-box.eu/
+
 Use a large language model like the META Llama 2 13B and Chat with PDF files locally on your machine.
 
 In the following picture the application is to be seen once after this was called. To the individual functions I come now in the following chapter
